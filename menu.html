@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مقهى فندق سفاري</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Tahoma", Arial, sans-serif;
+      background: linear-gradient(135deg, #fdf3e7 0%, #f5e6d3 100%);
+      color: #333;
+      direction: rtl;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #b85c38;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    .subtitle {
+      text-align: center;
+      color: #666;
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+    .menu-section {
+      margin-bottom: 40px;
+      border-left: 5px solid #b85c38;
+      padding-left: 20px;
+    }
+    .menu-section h2 {
+      background-color: #b85c38;
+      color: #fff;
+      padding: 12px 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-size: 1.3em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2d0a9;
+      font-weight: bold;
+      color: #b85c38;
+    }
+    tr:nth-child(even) {
+      background-color: #faf7f2;
+    }
+    tr:hover {
+      background-color: #f0e6d2;
+    }
+    td:first-child {
+      text-align: right;
+      font-weight: 500;
+    }
+    .price {
+      color: #b85c38;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #b85c38;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>☕ مقهى فندق سفاري ☕</h1>
+    <p class="subtitle">منيو شامل لجميع المشروبات والأطعمة</p>
+
+    <!-- المشروبات الساخنة -->
+    <div class="menu-section">
+      <h2>🔥 المشروبات الساخنة</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>إكسبرسو</td><td class="price">5</td></tr>
+        <tr><td>قهوة عربية</td><td class="price">5</td></tr>
+        <tr><td>أمريكانو</td><td class="price">5</td></tr>
+        <tr><td>كابتشينو</td><td class="price">5</td></tr>
+        <tr><td>كافي لاتيه</td><td class="price">8</td></tr>
+        <tr><td>تورا بيكا</td><td class="price">5</td></tr>
+        <tr><td>ماكياتو</td><td class="price">5</td></tr>
+        <tr><td>قهوة خارجية</td><td class="price">4</td></tr>
+        <tr><td>شاي أخضر</td><td class="price">5</td></tr>
+        <tr><td>شاي أحمر</td><td class="price">5</td></tr>
+        <tr><td>سحلب</td><td class="price">10</td></tr>
+        <tr><td>سحلب نوتيلا</td><td class="price">16</td></tr>
+        <tr><td>نسكافيه عادية</td><td class="price">5</td></tr>
+        <tr><td>نسكافيه خلطة</td><td class="price">7</td></tr>
+        <tr><td>هوت شوكلت</td><td class="price">14</td></tr>
+        <tr><td>نص نص</td><td class="price">5</td></tr>
+        <tr><td>سنترا</td><td class="price">14</td></tr>
+        <tr><td>خلطة كاملة</td><td class="price">14</td></tr>
+        <tr><td>كاكاو</td><td class="price">5</td></tr>
+      </table>
+    </div>
+
+    <!-- المشروبات الباردة -->
+    <div class="menu-section">
+      <h2>❄️ المشروبات الباردة</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>آيس لاتيه</td><td class="price">9</td></tr>
+        <tr><td>آيس موكا</td><td class="price">9</td></tr>
+        <tr><td>آيس كابتشينو</td><td class="price">8</td></tr>
+        <tr><td>ميلك شيك نوتيلا</td><td class="price">18</td></tr>
+        <tr><td>ميلك شيك فانيليا</td><td class="price">10</td></tr>
+        <tr><td>ميلك شيك فراولة</td><td class="price">14</td></tr>
+        <tr><td>ميلك شيك مانجا</td><td class="price">14</td></tr>
+        <tr><td>ميلك شيك سنيكرز</td><td class="price">14</td></tr>
+        <tr><td>ميلك شيك مارس</td><td class="price">14</td></tr>
+        <tr><td>ميلك شيك لوتس</td><td class="price">16</td></tr>
+        <tr><td>ميلك شيك كيندر</td><td class="price">18</td></tr>
+        <tr><td>ميلك شيك فستق</td><td class="price">16</td></tr>
+        <tr><td>ريد بول</td><td class="price">14</td></tr>
+        <tr><td>مشروبات غازية</td><td class="price">7</td></tr>
+        <tr><td>بوم بوم</td><td class="price">9</td></tr>
+        <tr><td>فريز</td><td class="price">6</td></tr>
+        <tr><td>بربيكان</td><td class="price">7</td></tr>
+        <tr><td>شوبيس</td><td class="price">7</td></tr>
+        <tr><td>انكورا عنب</td><td class="price">7</td></tr>
+      </table>
+    </div>
+
+    <!-- المشروبات المثلجة -->
+    <div class="menu-section">
+      <h2>🧊 المشروبات المثلجة</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>موكا مثلجة</td><td class="price">10</td></tr>
+        <tr><td>سبانش لاتي مثلجة</td><td class="price">10</td></tr>
+        <tr><td>أمريكانو مثلجة</td><td class="price">10</td></tr>
+        <tr><td>قهوة مثلجة</td><td class="price">10</td></tr>
+      </table>
+    </div>
+
+    <!-- العصائر -->
+    <div class="menu-section">
+      <h2>🍹 العصائر والفروبي</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>عصير مانجا</td><td class="price">14</td></tr>
+        <tr><td>عصير فراولة</td><td class="price">14</td></tr>
+        <tr><td>عصير برتقال</td><td class="price">14</td></tr>
+        <tr><td>عصير أناناس</td><td class="price">12</td></tr>
+        <tr><td>عصير ليمون/ليمون و نعناع</td><td class="price">13</td></tr>
+        <tr><td>عصير أناناس و ليمون</td><td class="price">13</td></tr>
+        <tr><td>عصير أفوكادو</td><td class="price">18</td></tr>
+        <tr><td>عصير أفوكادو بالعسل والمكسرات</td><td class="price">22</td></tr>
+        <tr><td>عصير كوكتيل</td><td class="price">15</td></tr>
+        <tr><td>فروبي موز</td><td class="price">14</td></tr>
+        <tr><td>فروبي مانجا</td><td class="price">14</td></tr>
+        <tr><td>فروبي فراولة</td><td class="price">14</td></tr>
+        <tr><td>فروبي تمر ولوز</td><td class="price">16</td></tr>
+      </table>
+    </div>
+
+    <!-- الموهيتو -->
+    <div class="menu-section">
+      <h2>🥃 الموهيتو</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>موهيتو توت</td><td class="price">10</td></tr>
+        <tr><td>موهيتو إينرجي</td><td class="price">15</td></tr>
+        <tr><td>موهيتو بلوبيري</td><td class="price">10</td></tr>
+        <tr><td>موهيتو فراولة</td><td class="price">12</td></tr>
+        <tr><td>موهيتو كلاسيك</td><td class="price">10</td></tr>
+        <tr><td>موهيتو كرز</td><td class="price">10</td></tr>
+      </table>
+    </div>
+
+    <!-- البريوش -->
+    <div class="menu-section">
+      <h2>🥐 البريوش</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>بريوش شوكولاتة ومكسرات</td><td class="price">20</td></tr>
+        <tr><td>بريوش فستق</td><td class="price">20</td></tr>
+        <tr><td>بريوش نوتيلا</td><td class="price">16</td></tr>
+        <tr><td>بريوش زبدة وعسل</td><td class="price">10</td></tr>
+        <tr><td>بريوش سادة</td><td class="price">7</td></tr>
+        <tr><td>بريوش كامل</td><td class="price">23</td></tr>
+        <tr><td>بريوش جبنة وزعتر</td><td class="price">12</td></tr>
+      </table>
+    </div>
+
+    <!-- الكريب -->
+    <div class="menu-section">
+      <h2>🥞 الكريب</h2>
+      <table>
+        <tr><th>الصنف</th><th>السعر (د.ل)</th></tr>
+        <tr><td>كريب حار</td><td class="price">25</td></tr>
+        <tr><td>كريب نوتيلا</td><td class="price">18</td></tr>
+        <tr><td>كريب نوتيلا وعسل ومكسرات</td><td class="price">20</td></tr>
+        <tr><td>كريب بالفستق</td><td class="price">22</td></tr>
+        <tr><td>كريب سفاري</td><td class="price">26</td></tr>
+        <tr><td>كريب باللوتس</td><td class="price">20</td></tr>
+      </table>
+    </div>
+
+    <footer>
+      <p>© 2026 مقهى فندق سفاري | جميع الأسعار بالدينار الليبي</p>
+      <p>نرحب بك دائماً ☕</p>
+    </footer>
+  </div>
+</body>
+</html>
